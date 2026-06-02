@@ -152,14 +152,6 @@ Multimodal diagnostic pipeline with CV disease detection + Gemini Pro identifyin
 
 ---
 
-## 🏆 GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=kishanaik5&theme=tokyonight&no-frame=true&row=1&column=7"/>
-</p>
-
----
-
 ## 🐍 Contribution Snake
 
 <p align="center">
