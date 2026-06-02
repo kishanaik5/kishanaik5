@@ -18,7 +18,7 @@
 
 ```python
 kishan = {
-    "role":         "AI & MLOps Engineer @ Silo Fortune",
+    "role":         "SWE AI/ML @ Silo Fortune",
     "location":     "Bengaluru, Karnataka, India",
     "education":    "B.E. AI & ML — Ramaiah Institute of Technology (CGPA: 8.6)",
     "publications": ["IEEE Bangalore 2024", "ICAI-ARSSS 2025"],
