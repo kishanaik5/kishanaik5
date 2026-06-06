@@ -1,4 +1,4 @@
-# <p align="center"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=3670A0&center=true&vCenter=true&width=700&lines=Hi+there,+I'm+Kishan+K!+%F0%9F%91%8B;AI+%26+MLOps+Engineer;GenAI+in+Production;Cloud+Enthusiast+%E2%98%81%EF%B8%8F;IEEE+Published+Researcher" alt="Typing SVG" /></p>
+# <p align="center"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=3670A0&center=true&vCenter=true&width=900&lines=Hi+there,+I'm+Kishan+K!+👋;AI+Engineer+%7C+Generative+AI+%7C+Computer+Vision;Building+Production+AI+Systems;LLMs+%7C+RAG+%7C+LangGraph+%7C+FastAPI;Agriculture+AI+%7C+Satellite+Intelligence;IEEE+Published+Researcher" alt="Typing SVG" /></p>
 
 <p align="center">
   <a href="https://linkedin.com/in/kishan-k-823049259"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
@@ -184,13 +184,23 @@ Multimodal AI pipeline combining Computer Vision and LLM reasoning for crop dise
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kishanaik5&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kishanaik5&layout=compact&theme=tokyonight&hide_border=true" height="160"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kishanaik5&theme=tokyo-night&hide_border=true" width="95%"/>
 </p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=kishanaik5&theme=tokyonight&hide_border=true"/>
 </p>
+
+---
+
+## 📈 Highlights
+
+- 🚀 Built production AI systems serving **7,000+ agricultural markets**
+- 🌾 Developed multilingual GenAI solutions across **12+ Indian languages**
+- 🛰️ Designed satellite intelligence pipelines using **NDVI, EVI, NDWI**
+- 🤖 Built Computer Vision systems using **YOLOv8 + DeepSORT**
+- 📚 Published research in **IEEE Bangalore (2024)** and **ICAI-ARSSS (2025)**
+- ☁️ Deployed AI workloads on **AWS ECS Fargate, S3, PostgreSQL, Redis**
 
 ---
 
