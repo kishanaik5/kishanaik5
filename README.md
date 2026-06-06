@@ -18,29 +18,45 @@
 
 ```python
 kishan = {
-    "role":         "SWE AI/ML @ Silo Fortune",
+    "role":         "Software Engineer (AI/ML) @ Silo Fortune",
     "location":     "Bengaluru, Karnataka, India",
-    "education":    "B.E. AI & ML — Ramaiah Institute of Technology (CGPA: 8.6)",
+    "education":    "B.E. Artificial Intelligence & Machine Learning (CGPA: 8.6)",
+    "specialization": [
+        "Generative AI",
+        "Computer Vision",
+        "AI Agents",
+        "LLM Engineering",
+        "Backend Systems"
+    ],
     "publications": ["IEEE Bangalore 2024", "ICAI-ARSSS 2025"],
-    "production":   "10,000+ daily API requests · 7,000+ mandis · 13 Indian languages",
-    "learning":     "AWS Cloud (Cloud Practitioner → Solutions Architect)",
-    "goal":         "AWS Community Builder by early 2026",
-    "fun_fact":     "I build AI for 140M Indian farmers 🌾"
+    "production": {
+        "markets": "7,000+ agricultural markets",
+        "languages": "12+ Indian languages",
+        "crops": "80+ crops",
+        "platforms": ["Kisaan Sampurna", "Gau Sampurna"]
+    },
+    "currently_building": "Sentinel - Agentic Research Copilot for Indian Equities",
+    "focus": "Production AI Systems, Agentic Workflows, Computer Vision, and Cloud-Native Platforms",
+    "fun_fact": "Building AI for the people who feed the world 🌾"
 }
 ```
 
 ---
 
-## 🏭 Production Systems @ Silo Fortune
+## 🚀 Featured Projects
 
-> Real services running at scale — not side projects
+> Production systems, AI platforms, and research projects
 
-| Service | What it does | Scale |
-|:--------|:-------------|:------|
-| 🌾 **Kisaan Sampurna** | Multimodal GenAI pipeline (Gemini 2.5 Flash + CV) — crop disease advisories | 12 languages · 92%+ precision |
-| 📊 **Mandi Price API** | Real-time agricultural market price data with Haversine SQL geo-resolution | 7,000+ mandis · 12 languages |
-| 🛰️ **Farm Intelligence System** | Satellite indices → 432 fingerprints → 15-section LLM advisory | 13 languages · AWS ECS Fargate |
-| 🌱 **Crop Stage Prediction** | 5-year satellite imagery → VegetationIntelligenceEngine → growth stage mapping | 21 crops · 80+ sub-stages |
+| Project                         | What it does                                                                                                                                                            | Impact                                            |
+| :------------------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------ |
+| 🌾 **Kisaan Sampurna**          | Production agricultural AI platform combining Computer Vision, Gemini-powered multilingual advisory, weather intelligence, market intelligence, and satellite analytics | Google Play Store · 12 Languages · 7,000+ Markets |
+| 🛰️ **Crop Stage Prediction**   | Satellite imagery intelligence engine using 5 years of vegetation-index data for growth-stage detection and advisory generation                                         | 80+ Crops · Multi-Year Satellite Analysis         |
+| 📊 **Mandi Intelligence API**   | Real-time agricultural market intelligence platform with geospatial search, nearest-market discovery, and pricing analytics                                             | 7,000+ Markets · Location-Aware Search            |
+| 🌱 **Farm Intelligence System** | NDVI/EVI/NDWI-based farm health assessment engine with rule-based intelligence and multilingual recommendations                                                         | 432+ Intelligence Fingerprints                    |
+| 🐄 **Gau Sampurna**             | Computer Vision pipeline for livestock fertility analysis using YOLOv8, DeepSORT, and asynchronous video processing                                                     | Results Generated Within Minutes                  |
+| 🤖 **Sentinel**                 | Agentic AI research copilot for Indian equities using LangGraph, MCP, RAG, and citation-backed financial analysis                                                       | Multi-Agent Architecture                          |
+| 📚 **VLSI RAG Platform**        | Retrieval-Augmented Generation system for document intelligence and automated MCQ generation from technical content                                                     | 10,000+ Documents Processed                       |
+| 🌿 **Crop Disease Diagnosis**   | Multimodal Computer Vision and LLM pipeline for crop disease identification and treatment recommendations                                                               | Multilingual Advisory Generation                  |
 
 ---
 
@@ -56,73 +72,99 @@ kishan = {
 | **Currently Learning** | ![AWS](https://img.shields.io/badge/AWS_Cloud_Practitioner-FF9900?style=flat&logo=amazon-aws&logoColor=white) → Solutions Architect |
 
 ---
-
 ## 🚀 Featured Projects
 
 <table>
 <tr>
 <td width="50%">
 
-### 🌾 Real-Time Mandi Price API
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/kishanaik5/mandi_price_forecast_predictor)
+### 🌾 Kisaan Sampurna
 
-FastAPI backend for **7,000+ agricultural markets** with Haversine SQL geo-resolution, dual-source data (PostgreSQL + AWS S3), 12-language support, and cascade dropdowns under **5ms**.
+<a href="https://play.google.com/store/apps/details?id=com.kissansampurna.app&hl=en_IN">📱 Google Play Store</a>
+
+Production agricultural AI platform delivering crop disease diagnosis, satellite intelligence, weather forecasting, crop-stage prediction, market intelligence, and multilingual farmer advisory across **12 Indian languages**.
+
+`FastAPI` `Google Gemini` `PostgreSQL` `Redis` `AWS ECS Fargate`
+
+</td>
+<td width="50%">
+
+### 🤖 Sentinel – Agentic Research Copilot
+
+<a href="https://github.com/sentinel-ai-lab/sentinel">GitHub</a>
+
+Multi-agent financial research platform for **NSE/BSE-listed companies** using LangGraph, MCP, hybrid retrieval, reranking, observability, and citation-backed investment intelligence.
+
+`LangGraph` `LangChain` `RAG` `Qwen 2.5` `FAISS`
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### 📊 Real-Time Mandi Intelligence
+
+<a href="https://github.com/kishanaik5/mandi_price_forecast_predictor">GitHub</a>
+
+FastAPI backend serving **7,000+ agricultural markets** with geospatial search, nearest-mandi resolution, multilingual support, and real-time agricultural price intelligence.
 
 `FastAPI` `PostgreSQL` `AWS S3` `Docker` `SQLAlchemy`
 
 </td>
 <td width="50%">
 
-### 🛰️ AI Crop Stage Prediction
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/kishanaik5/Crop_stages_prediction_model)
+### 🌱 AI Crop Stage Prediction
 
-5-layer satellite pipeline reading **5 years of NDVI/EVI/NDMI imagery** → VegetationIntelligenceEngine → 80+ sub-stages for 21 crops → **16 parallel Gemini calls** → 10 Indian languages.
+<a href="https://github.com/kishanaik5/Crop_stages_prediction_model">GitHub</a>
 
-`Gemini 2.0 Flash` `AgroMonitoring API` `asyncio` `PostgreSQL`
+Satellite intelligence pipeline processing **5 years of NDVI/EVI imagery** to identify growth stages across **80+ crops** using asynchronous AI workflows and parallel Gemini inference.
+
+`Google Gemini` `AgroMonitoring API` `AsyncIO` `PostgreSQL`
 
 </td>
 </tr>
+
 <tr>
 <td width="50%">
 
-### 🏭 AI Farm Intelligence System
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/kishanaik5/Yield-and-weather-forecast-suggestions-by-Rule-based-agent)
+### 🛰️ Farm Intelligence System
 
-Satellite indices → **432 condition fingerprints** → 15-section advisory in **13 languages**. Two-level LLM cache drives cost to near-zero. Deployed on **AWS ECS Fargate** + Jenkins CI/CD.
+<a href="https://github.com/kishanaik5/Yield-and-weather-forecast-suggestions-by-Rule-based-agent">GitHub</a>
 
-`Google Gemini` `AWS S3` `AWS ECS Fargate` `Jenkins` `JSONB`
+NDVI, EVI, NDWI, and DSWI analytics powering farm health assessment, weather-aware recommendations, and multilingual advisory generation with near-zero LLM inference cost.
+
+`Google Gemini` `AWS ECS Fargate` `Redis` `Jenkins` `PostgreSQL`
 
 </td>
 <td width="50%">
 
-### 🔬 AI-Driven Sperm Mobility Analysis
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://tinyurl.com/sperm-mobility-project)
+### 🐄 Gau Sampurna
 
-Containerized FastAPI + Celery async service with **YOLOv8 + DeepSORT** CV pipeline for sperm motility tracking, optimized for low-resource environments (2vCPU/4GB RAM).
+Computer vision platform for livestock fertility analysis using YOLOv8 and DeepSORT. Automated semen quality assessment through asynchronous video processing and motility tracking.
 
-`YOLOv8` `DeepSORT` `Celery` `Redis` `AWS S3`
+`YOLOv8` `DeepSORT` `FastAPI` `Celery` `Redis`
 
 </td>
 </tr>
+
 <tr>
 <td width="50%">
 
 ### 📚 RAG for VLSI Automation
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://tinyurl.com/github-RAG-VLSI)
 
-RAG system using LlamaIndex + FAISS to auto-generate **2,000+ technical MCQs** from VLSI documents, reducing content creation time by **60%**.
+Retrieval-Augmented Generation system processing **10,000+ technical documents** to automatically generate assessment content, reducing manual effort and improving learner engagement.
 
-`LlamaIndex` `FAISS` `HuggingFace` `AWS S3` `MongoDB`
+`LlamaIndex` `FAISS` `MongoDB` `AWS S3`
 
 </td>
 <td width="50%">
 
 ### 🌿 Intelligent Crop Diagnostic System
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://tinyurl.com/github-agri-repo)
 
-Multimodal diagnostic pipeline with CV disease detection + Gemini Pro identifying **360+ crop varieties** in **10 languages** with **94% precision**.
+Multimodal AI pipeline combining Computer Vision and LLM reasoning for crop disease identification, treatment recommendations, and multilingual farmer assistance.
 
-`Computer Vision` `Gemini Pro` `Knowledge-Based Agents` `AWS S3`
+`Computer Vision` `Google Gemini` `Knowledge-Based Agents` `AWS S3`
 
 </td>
 </tr>
