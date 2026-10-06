@@ -32,7 +32,7 @@ kishan = {
     "production": {
         "markets": "7,000+ agricultural markets",
         "languages": "12+ Indian languages",
-        "crops": "80+ crops",
+        "crops": "160+ crops",
         "platforms": ["Kisaan Sampurna", "Gau Sampurna"]
     },
     "currently_building": "Sentinel - Agentic Research Copilot for Indian Equities",
