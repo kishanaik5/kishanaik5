@@ -53,10 +53,11 @@ kishan = {
 | 🛰️ **Crop Stage Prediction**   | Satellite imagery intelligence engine using 5 years of vegetation-index data for growth-stage detection and advisory generation                                         | 80+ Crops · Multi-Year Satellite Analysis         |
 | 📊 **Mandi Intelligence API**   | Real-time agricultural market intelligence platform with geospatial search, nearest-market discovery, and pricing analytics                                             | 7,000+ Markets · Location-Aware Search            |
 | 🌱 **Farm Intelligence System** | NDVI/EVI/NDWI-based farm health assessment engine with rule-based intelligence and multilingual recommendations                                                         | 432+ Intelligence Fingerprints                    |
-| 🐄 **Gau Sampurna**             | Computer Vision pipeline for livestock fertility analysis using YOLOv8, DeepSORT, and asynchronous video processing                                                     | Results Generated Within Minutes                  |
+| 🐄 **Gau Sampurna**             | Livestock AI: Computer Vision fertility analysis using YOLOv8, DeepSORT, and async video processing, plus Gau Swastha, a multimodal VLM cattle health diagnostics platform | Results Within Minutes · 31 Cattle Diseases (VLM) |
 | 🤖 **Sentinel**                 | Agentic AI research copilot for Indian equities using LangGraph, MCP, RAG, and citation-backed financial analysis                                                       | Multi-Agent Architecture                          |
-| 📚 **VLSI RAG Platform**        | Retrieval-Augmented Generation system for document intelligence and automated MCQ generation from technical content                                                     | 10,000+ Documents Processed                       |
+| 📚 **VLSI RAG Platform**        | Retrieval-Augmented Generation system for document intelligence and automated MCQ generation from technical content                                                     | 1,000+ Documents Processed                        |
 | 🌿 **Crop Disease Diagnosis**   | Multimodal Computer Vision and LLM pipeline for crop disease identification and treatment recommendations                                                               | Multilingual Advisory Generation                  |
+| 🕸️ **Agri-Expert Copilot**     | Conversational agri-advisory copilot on a Neo4j knowledge graph, with LangGraph multi-hop Cypher reasoning and a Strawberry GraphQL API                                 | 164+ Crops · 1,900+ Disease-Treatment Links · 19,000+ PIN Codes |
 
 ---
 
@@ -66,9 +67,9 @@ kishan = {
 |:---------|:------|
 | **Languages** | ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=flat&logo=c%2B%2B&logoColor=white) ![SQL](https://img.shields.io/badge/sql-%23336791.svg?style=flat&logo=sqlite&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) |
 | **AI & GenAI** | ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=flat&logo=TensorFlow&logoColor=white) ![Gemini](https://img.shields.io/badge/Google%20Gemini-%238E75B2.svg?style=flat&logo=Google%20Gemini&logoColor=white) ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white) ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black) |
-| **Backend** | ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=flat&logo=django&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=flat&logo=node.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB) |
+| **Backend** | ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=flat&logo=django&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=flat&logo=node.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB) ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat&logo=graphql&logoColor=white) |
 | **Cloud & MLOps** | ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat&logo=amazon-aws&logoColor=white) ![GCP](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=flat&logo=google-cloud&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white) ![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=flat&logo=jenkins&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/CI/CD-FFB13B?style=flat&logo=githubactions&logoColor=white) |
-| **Databases** | ![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=flat&logo=postgresql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat&logo=mongodb&logoColor=white) ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=flat&logo=redis&logoColor=white) ![FAISS](https://img.shields.io/badge/FAISS-005571?style=flat) |
+| **Databases** | ![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=flat&logo=postgresql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat&logo=mongodb&logoColor=white) ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=flat&logo=redis&logoColor=white) ![FAISS](https://img.shields.io/badge/FAISS-005571?style=flat) ![Neo4j](https://img.shields.io/badge/Neo4j-4581C3?style=flat&logo=neo4j&logoColor=white) |
 | **Currently Learning** | ![AWS](https://img.shields.io/badge/AWS_Cloud_Practitioner-FF9900?style=flat&logo=amazon-aws&logoColor=white) → Solutions Architect |
 
 ---
@@ -141,7 +142,7 @@ NDVI, EVI, NDWI, and DSWI analytics powering farm health assessment, weather-awa
 
 ### 🐄 Gau Sampurna
 
-Computer vision platform for livestock fertility analysis using YOLOv8 and DeepSORT. Automated semen quality assessment through asynchronous video processing and motility tracking.
+Computer vision platform for livestock fertility analysis using YOLOv8 and DeepSORT. Automated semen quality assessment through asynchronous video processing and motility tracking. Extended by **Gau Swastha** for cattle health diagnostics.
 
 `YOLOv8` `DeepSORT` `FastAPI` `Celery` `Redis`
 
@@ -153,7 +154,7 @@ Computer vision platform for livestock fertility analysis using YOLOv8 and DeepS
 
 ### 📚 RAG for VLSI Automation
 
-Retrieval-Augmented Generation system processing **10,000+ technical documents** to automatically generate assessment content, reducing manual effort and improving learner engagement.
+Retrieval-Augmented Generation system processing **1,000+ technical documents** to automatically generate assessment content, reducing manual effort and improving learner engagement.
 
 `LlamaIndex` `FAISS` `MongoDB` `AWS S3`
 
@@ -165,6 +166,29 @@ Retrieval-Augmented Generation system processing **10,000+ technical documents**
 Multimodal AI pipeline combining Computer Vision and LLM reasoning for crop disease identification, treatment recommendations, and multilingual farmer assistance.
 
 `Computer Vision` `Google Gemini` `Knowledge-Based Agents` `AWS S3`
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### 🕸️ Agri-Expert Copilot
+
+<a href="https://agri-expert-agent.onrender.com/agri-ui">🔗 Live Demo</a>
+
+Conversational agri-advisory copilot on a **Neo4j knowledge graph** of **164+ crops**, **1,900+ disease-treatment links**, and **19,000+ PIN codes**. LangGraph runs multi-hop Cypher traversals for disease, dosage, phenology, and crop-suitability queries, served through a Strawberry GraphQL API on FastAPI with RabbitMQ workers.
+
+`Neo4j` `Cypher` `GraphQL` `LangGraph` `FastAPI` `RabbitMQ`
+
+</td>
+<td width="50%">
+
+### 🩺 Gau Swastha (Gau Sampurna) — In Development
+
+Multimodal VLM platform for cattle disease and health diagnostics covering **31 cattle diseases** and a 27-way fecal condition taxonomy, with evidence-first visual reasoning, knowledge-base linking in PostgreSQL, and structured clinical triage reporting.
+
+`Google Gemini` `VLM` `FastAPI` `PostgreSQL` `Alembic` `AWS S3`
 
 </td>
 </tr>
@@ -199,6 +223,7 @@ Multimodal AI pipeline combining Computer Vision and LLM reasoning for crop dise
 - 🌾 Developed multilingual GenAI solutions across **12+ Indian languages**
 - 🛰️ Designed satellite intelligence pipelines using **NDVI, EVI, NDWI**
 - 🤖 Built Computer Vision systems using **YOLOv8 + DeepSORT**
+- 🕸️ Built a Neo4j knowledge-graph advisory copilot (**164+ crops, 19,000+ PIN codes**) with LangGraph and GraphQL
 - 📚 Published research in **IEEE Bangalore (2024)** and **ICAI-ARSSS (2025)**
 - ☁️ Deployed AI workloads on **AWS ECS Fargate, S3, PostgreSQL, Redis**
 
