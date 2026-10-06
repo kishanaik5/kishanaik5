@@ -142,6 +142,8 @@ NDVI, EVI, NDWI, and DSWI analytics powering farm health assessment, weather-awa
 
 ### 🐄 Gau Sampurna
 
+<a href="https://github.com/kishanaik5/sperm_motility_project">GitHub</a>
+
 Computer vision platform for livestock fertility analysis using YOLOv8 and DeepSORT. Automated semen quality assessment through asynchronous video processing and motility tracking. Extended by **Gau Swastha** for cattle health diagnostics.
 
 `YOLOv8` `DeepSORT` `FastAPI` `Celery` `Redis`
