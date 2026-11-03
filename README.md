@@ -57,7 +57,7 @@ Agri-advisory and market-intelligence platform: crop-disease diagnosis, satellit
 ### 🤖 Sentinel — Agentic Research & Compliance
 <a href="https://github.com/sentinel-ai-lab/sentinel">GitHub</a> · <a href="https://huggingface.co/kishanaik5/sentinel-compliance-qwen25-7b-lora">🤗 Model</a>
 
-A LangGraph agent that searches annual reports with **hybrid retrieval** (BM25 + pgvector, reciprocal-rank fusion, BGE reranker), drafts a cited brief, then a **QLoRA-tuned Qwen-2.5-7B** audits it for SEBI rules. **270/271** on a held-out synthetic set (and a simple TF-IDF baseline reaches 269 — [I wrote about it](#-blogs)). RAGAS on 100 queries: **0.88** faithfulness, **0.85** answer relevancy.
+A LangGraph agent that searches annual reports with **hybrid retrieval** (BM25 + pgvector, reciprocal-rank fusion, BGE reranker), drafts a cited brief, then a **QLoRA-tuned Qwen-2.5-7B** audits it for SEBI rules. **270/271** on a held-out synthetic set (and a simple TF-IDF baseline reaches 269 — [I wrote about it](#-blogs)). CI with lint, type checks, 27 tests and a citation-validity checker ([how I test it](blogs/06-testing-an-agent-that-cites-sources.md)).
 
 `LangGraph` `pgvector` `Qwen-2.5` `QLoRA` `RAGAS` `FastAPI`
 
